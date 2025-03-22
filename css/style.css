@@ -1,24 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'poppins', sans-serif;
-    text-align: left;
-}
-
-h3,
-p {
-    margin: 0;
-}
-
-h1 {
-    text-align: center;
 }
 
 .box {
-    background: coral;
-    max-width: 300px;
+    max-width: 400px;
     margin: 20px;
     padding: 20px;
-}
-
-.box h3 {
-    margin-bottom: 10px;
+    border: 2px solid black;
 }
